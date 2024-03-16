@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FicheContact</class>
+ <widget class="QWidget" name="FicheContact">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>943</width>
+    <height>627</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>40</y>
+     <width>931</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="5" column="5">
+     <widget class="QLineEdit" name="le_modifInteraction"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Nom :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLineEdit" name="nomEdit"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Téléphone : </string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3" rowspan="3" colspan="4">
+     <widget class="QTextEdit" name="zoneInteraction"/>
+    </item>
+    <item row="3" column="4">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Ajouter une interaction :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>URL Photo : </string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="5" colspan="2">
+     <widget class="QComboBox" name="cb_ChoixInteraction"/>
+    </item>
+    <item row="5" column="6">
+     <widget class="QPushButton" name="bt_modifInteraction">
+      <property name="text">
+       <string>Modifier l'interaction</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="6">
+     <widget class="QPushButton" name="bt_ajoutInteraction">
+      <property name="text">
+       <string>Ajouter l'interaction</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLineEdit" name="telEdit"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Prénom :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QLineEdit" name="photoEdit"/>
+    </item>
+    <item row="0" column="0" rowspan="5">
+     <widget class="QLabel" name="lb_Photo">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>250</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>E-mail : </string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLineEdit" name="mailEdit"/>
+    </item>
+    <item row="5" column="4">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Interaction à modifier : </string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="5">
+     <widget class="QLineEdit" name="le_Interaction"/>
+    </item>
+    <item row="9" column="2">
+     <widget class="QPushButton" name="bt_modifier">
+      <property name="text">
+       <string>Modifier</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QPushButton" name="bt_supprimer">
+      <property name="text">
+       <string>Supprimer</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Entreprise : </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLineEdit" name="prenomEdit"/>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLineEdit" name="entrepriseEdit"/>
+    </item>
+    <item row="6" column="4">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Ajouter une tache :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="5">
+     <widget class="QLineEdit" name="le_Tache"/>
+    </item>
+    <item row="7" column="4">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>Date de la tache :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="5">
+     <widget class="QDateTimeEdit" name="dt_dateTache">
+      <property name="displayFormat">
+       <string>dd/MM/yyyy HH:mm:ss</string>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="6" rowspan="2">
+     <widget class="QPushButton" name="bt_ajoutTache">
+      <property name="text">
+       <string>Ajouter une tache</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLabel" name="label_18">
+      <property name="text">
+       <string>Dernière modification :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="2">
+     <widget class="QLabel" name="lb_modif">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLabel" name="label_16">
+      <property name="text">
+       <string>Date de création :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QLabel" name="lb_creation">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1" colspan="2">
+     <widget class="QPushButton" name="bt_photo">
+      <property name="text">
+       <string>Choississez une photo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="4" colspan="2">
+     <widget class="QComboBox" name="cb_taches"/>
+    </item>
+    <item row="8" column="6">
+     <widget class="QPushButton" name="bt_suppTache">
+      <property name="text">
+       <string>Supprimer une tache</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
